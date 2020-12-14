@@ -16,7 +16,8 @@ CLSW_cut.txt contains the weights of Cliff Swallows(CLSW) from 32 years of recap
 The program first clears out unnecessary data: birds that were juveniles when first captured and birds for which we have no late-weight data. Late weight refers to the weight of birds when captured late in the season and is more likely to effect survival than weights taken early in the breeding season. Next the program turns the continuous late weight data into discrete variables, and merges the columns from each year into a single string. Finally, the strings are written to a .inp file.  
 
 Github Repository contents:
-Data file: CLSW_cut.txt
+Data file: CLSW_cut.txt.gz
+	-File will need to be unnzipped using command 'gunzip CLSW_cut.txt.gz' on command line
 	-Contains 35 columns and 216,477 rows
 	-Opens in Excel (at the risk of slowing down your computer)
 	-You can view it on the command line, but you should not
