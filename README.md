@@ -5,7 +5,9 @@ Amy West - amycwest7@gmail.com
 Mark is a Program that can easily conduct the statistics for mark-recapture data. However, it can only read .inp files. The .inp file required by Mark is a text file that contains a single string of letters or numbers that act as dummy variables. The .inp files produced by this program contains rows something like this:
 
 000000000ABCA0000000000000000000 1;
+
 H0H00000000000000000000000000000 1;
+
 0000D0E0F00000000000000000000000 1;
 
 The purpose of this project is to examine the effect of weight on year-to-year survival in CLSW. As such, we want the elements in the .inp string representing the weight of each bird for each year of the study followed by a count of how many times that sequence appears in the data. The resulting file will contain strings of numbers representing each bird's weight at the time of capture and will be able to be opened in Mark.
