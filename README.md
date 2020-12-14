@@ -28,17 +28,25 @@ Data file: CLSW_cut.txt.gz
 	-Jupyter notebook will not print the whole doc, but you can get an idea of what it looks like if you just print the first couple rows
 
 Python script:  West_coding_final_python.py
+	
 	-Runs from the command line 
+	
 	-Runtime: 10-30 seconds
 
 Jupyter notebook file: West_coding_final_jupyter_notebook.ipynb
+	
 	-Contains code with markdown and annotations
+	
 	-Opens in jupyter notebook
 
 Mark Input file: recap.inp
+	
 	-What the resulting output file should look like
+	
 	-Opens in text editors and Program:Mark
 
 Readme file: README_West_final.txt
+	
 	-README file
+	
 	-Opens in text editors
