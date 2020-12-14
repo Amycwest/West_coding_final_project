@@ -21,10 +21,15 @@ The program first clears out unnecessary data: birds that were juveniles when fi
 Github Repository contents:
 
 Data file: CLSW_cut.txt.gz
+	
 	-File will need to be unnzipped using command 'gunzip CLSW_cut.txt.gz' on command line
+	
 	-Contains 35 columns and 216,477 rows
+	
 	-Opens in Excel (at the risk of slowing down your computer)
+	
 	-You can view it on the command line, but you should not
+	
 	-Jupyter notebook will not print the whole doc, but you can get an idea of what it looks like if you just print the first couple rows
 
 Python script:  West_coding_final_python.py
